@@ -8,6 +8,7 @@ set cindent
 set tabstop=4
 set shiftwidth=4 "自动对齐空格数
 set softtabstop=4 "退格键一次可以删除4个空格
+set expandtab
 set hlsearch incsearch "查询高亮，而且会随着你的输入，动态高亮
 "set clipboard=unnamed "和系统剪贴板交互
 syntax enable
