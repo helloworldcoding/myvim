@@ -11,7 +11,9 @@ set softtabstop=4 "退格键一次可以删除4个空格
 set expandtab
 set hlsearch incsearch "查询高亮，而且会随着你的输入，动态高亮
 "set clipboard=unnamed "和系统剪贴板交互
-syntax enable
+set cc=80   "80列高亮                                                                    
+set ruler                                                                       
+vnoremap <C-y> "+y 
 syntax on
 filetype indent on
 filetype plugin on
